@@ -32,5 +32,9 @@ Commands:
     def day(self):
         print(time.strftime("%A"))
 
-if __name__ == '__main__':
+
+def main():
     Command()
+
+if __name__ == '__main__':
+    main()
