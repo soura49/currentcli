@@ -15,7 +15,7 @@ setuptools.setup(
     python_requires='>=3.6',
     entry_points = {
         'console_scripts': [
-            'currentcli = currentcli.__main__:Commands'
+            'currentcli = currentcli.__main__:main'
         ]
     }
 )
